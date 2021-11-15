@@ -1,21 +1,25 @@
 {
-	"default_pricing": [
-		{
-			"price": 3,
-			"name": "10 minutes",
-			"value": 10
-		},
-		{
-			"price": 5,
-			"name": "20 minutes",
-			"value": 20
-		},
-		{
-			"price": 15,
-			"name": "60 minutes",
-			"value": 60
-		}
-	],
+	"default_pricing": {
+		"id": "default_pricing",
+		"name": "default_pricing123",
+		"pricing": [
+			{
+				"price": 3,
+				"name": "10 minutes",
+				"value": 10
+			},
+			{
+				"price": 5,
+				"name": "20 minutes",
+				"value": 20
+			},
+			{
+				"price": 15,
+				"name": "60 minutes",
+				"value": 60
+			}
+		]
+	},
 	"3ba92095-3203-4888-a464-3c7d5d9acd7e": {
 		"id": "3ba92095-3203-4888-a464-3c7d5d9acd7e",
 		"name": "Super Value Option",

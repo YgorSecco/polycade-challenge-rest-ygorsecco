@@ -7,7 +7,7 @@ const BASE_PATH = path.join(__dirname, 'src', 'db');
 module.exports = {
 	test: {
 		client: 'pg',
-		connection: 'postgres://postgres:010203@localhost:5432/koa_api_test',
+		connection: 'postgres://postgres:010203@localhost:5432/polycade_rest_test',
 		migrations: {
 			directory: path.join(BASE_PATH, 'migrations')
 		},
@@ -17,7 +17,7 @@ module.exports = {
 	},
 	development: {
 		client: 'pg',
-		connection: 'postgres://postgres:010203@localhost:5432/koa_api',
+		connection: 'postgres://postgres:010203@localhost:5432/polycade_rest',
 		migrations: {
 			directory: path.join(BASE_PATH, 'migrations')
 		},
