@@ -4,6 +4,7 @@
 	"main": "src/index.js",
 	"scripts": {
 		"lint": "eslint src/index.js",
+		"setup": "docker-compose up -d",
 		"start": "babel-node src/index.js",
 		"test": "jest --runInBand --forceExit",
 		"watch": "nodemon --exec babel-node --watch src/index.js",

@@ -6,21 +6,26 @@
 - [@ygorsecco](https://github.com/YgorSecco)
 
 
-## Deployment
+## Setup
 
 The npm packages must be installed using
 ```bash
   npm install
 ```
+> must have docker installed
 
-The postgresql DB must be set. As migrations and seeds from knex library failed, I manually created then database using SQL and generated SQL dump files for development and test environments databases to make the DB setup quicker.
-Those can be found in the project at:
-./src/db/dump/
-
-To deploy this project run
+Just run to configure postgres
 
 ```bash
-  npm run
+  npm run setup
+```
+
+## Running
+
+To start this project run
+
+```bash
+  npm start
 ```
 
 By default it should be ran on port :8013
